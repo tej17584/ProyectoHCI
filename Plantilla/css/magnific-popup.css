@@ -251,6 +251,18 @@ img.mfp-img {
   box-sizing: border-box;
   padding: 40px 0 40px;
   margin: 0 auto; }
+  
+/*Fragmento CSS para desplegar videos en popups*/
+video.mfp-img{
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 40px 0 40px;
+  margin: 0 auto; }
+/*----------------------------------------------------------------------------------------------------*/
 
 /* The shadow behind the image */
 .mfp-figure {

@@ -636,6 +636,16 @@ figure.effect-bubba:hover p {
     opacity: 0;
 }
 
+/*Fragmento CSS para desplegar videos en popups*/
+.grid-item figure figcaption > video {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+/*----------------------------------------------------------------------------------------------------*/
+
 /*.tm-pad-t { padding-top: 40px; }*/
 .tm-white-box-margin-b { margin-bottom: 30px; }
 .grid-item { max-width: 340px; }
